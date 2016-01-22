@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AddressBook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+
+  <body>
+    
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-lg">.
+          <h3 id="pgHeader">Address Book</h3>
+        </div>
+      </div>
+      
+      <div class="row" id="root">
+        
+      </div>
+      
+      <!--sample visual-->
+      <div class="row hidden" id="infoSect">
+        <div class="col-sm-4" id="sampleContact">
+          <div id="imgPlaceholder" class="pull-left"></div>
+          <div id="contactInfo" >
+            <h4>Example Sample</h4>
+            <p id='phoneNum'>999-999-9999</p>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div id="imgPlaceholder_lg" class="pull-left"></div>
+          <div id="expandedInfo" >
+            <h2>Example Sample</h2>
+            <button class="btn btn-default">Edit</button>
+            <button class="btn btn-default">Delete</button>
+            <div class="personInfo">
+              <label for="number">Phone:</label>
+              <p name="number">999-999-9999</p>
+              <label for="address">Address:</label>
+              <p name="address">143 S Main St. Salt Lake City, UT, 84111</p>
+              <label for="email">Email:</label>
+              <p name="email">email@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    
+    <script src="https://fb.me/react-0.14.6.js"></script>
+    <script src="https://fb.me/react-dom-0.14.6.js"></script>
+    <script src="react.js"></script>
+    <script src="crud.js"></script>
+    
+  </body>
+
+</html>

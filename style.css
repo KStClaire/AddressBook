@@ -1,0 +1,48 @@
+#infoSect{
+  margin: 10px;
+}
+
+#pgHeader{
+  padding: 20px;
+  border-bottom: 7px double #FFB373;
+}
+
+#sampleContact{
+  border: 1px solid #FFB373;
+  border-radius: 5px;
+}
+
+#contactInfo{
+  
+}
+
+#imgPlaceholder{
+  height: 50px;
+  width: 50px;
+  background: #FFB373;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+#imgPlaceholder_lg{
+  height: 100px;
+  width: 100px;
+  background: #FFB373;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+#expandedInfo{
+  border: 1px solid #FFB373;
+  border-radius: 5px;
+}
+
+.personInfo{
+  padding: 20px;
+  clear:both;
+}
+
+.personInfo label{
+  padding-top: 20px;
+  color: #FFB373;
+}
